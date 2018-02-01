@@ -1,0 +1,81 @@
+html, body {
+	margin:0;
+	font-family: arial,sans-serif;
+	min-width: 900px;
+	line-height: 14px;
+	font-size: 14px;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	color: #0066c0;
+}
+a:hover {
+  color: #c45500;
+}
+#banner {
+  background: #F6F6F6 url('../img/banner.jpg') no-repeat top left;
+  height: 55px;
+  background-size: 1920px;
+  min-width: 1000px;
+  display: block;
+}
+header {
+	background-color: #232f3e;
+	height: 99px;
+}
+.nav-left {
+	position: relative;
+	float: left;
+	width: auto;
+	display: inline-block; 
+}
+.nav-right {
+	position: relative;
+	float: right;
+	width: auto;
+	display: inline-block; 
+}
+.nav-fill {
+	width: auto;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#nav-logo {
+	padding: 11px 18px 0 24px;
+	position: relative;
+	width: 192px;
+}
+#nav-logo .nav-logo-link {
+  background: transparent url('../img/logo.png') no-repeat top left;
+  background-size: 102px;
+  width: 192px;
+  height: 32px;
+  display: block;
+}
+#nav-logo .nav-logo-tagline {
+  color: #48a3c6;
+  position: absolute;
+  top: 31px;
+  left: 93px;
+  font-size: 11px;
+  line-height: 11px;
+  font-family: arial, sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+#nav-logo .nav-logo-tagline:hover {
+  color: #ffffff;
+}
+#nav-holiday {
+  top: 9px;
+  position: relative;
+  background-image: url('../img/backtoschool.jpg');
+  width: 400px;
+  height: 39px;
+}
+#nav-holiday a {
+  display: block;
+  height: 100%;
+}
